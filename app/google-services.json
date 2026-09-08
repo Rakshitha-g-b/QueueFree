@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "114495266407",
+    "firebase_url": "https://queuefree-3104d-default-rtdb.firebaseio.com",
+    "project_id": "queuefree-3104d",
+    "storage_bucket": "queuefree-3104d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114495266407:android:574c80f679bc09cda0bec2",
+        "android_client_info": {
+          "package_name": "com.example.queuefree"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtCEhgZ4wl9R0tEpcjlig2vo6LWfNASDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

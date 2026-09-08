@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome, User"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Instruction Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select a service center to book your token"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Nearby Services Button -->
+        <Button
+            android:id="@+id/nearbyServicesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Find Nearby Services"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:backgroundTint="#9C27B0"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Slot Booking Button -->
+        <Button
+            android:id="@+id/slotBookingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📅 Book Time Slot"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:backgroundTint="#00BCD4"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="32dp" />
+        <!-- Add after nearbyServicesButton -->
+        <Button
+            android:id="@+id/crowdStatusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔴 Live Crowd Status"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:backgroundTint="#E91E63"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Service Center Cards -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or choose a service:"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/rationShopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏪 Ration Shop"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/hospitalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏥 Government Hospital"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/govtOfficeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏛️ Government Office"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:backgroundTint="#FF9800"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="16sp"
+            android:backgroundTint="#F44336"
+            android:textColor="@android:color/white"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>
