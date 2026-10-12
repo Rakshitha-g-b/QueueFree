@@ -105,7 +105,7 @@ The application may require the following permissions:
 ## Author
 
 Your Name  
-GitHub: [your-github-profile](https://github.com/your-username)
+GitHub: https://github.com/Rakshitha-g-b/QueueFree
 
 ## License
 
